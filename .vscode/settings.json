@@ -2,7 +2,9 @@
   "solidity.packageDefaultDependenciesContractsDirectory": "src",
   "solidity.packageDefaultDependenciesDirectory": "lib",
   "solidity.compileUsingRemoteVersion": "v0.8.10+commit.fc410830",
-  "search.exclude": { "lib": true },
+  "search.exclude": {
+    "**/lib": true
+  },
   "files.associations": {
     ".dapprc": "shellscript",
     ".gas-snapshot": "julia"
